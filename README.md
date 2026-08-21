@@ -74,6 +74,65 @@ $$
 ### 4. Equilibrium angle vs field direction
 ![Equilibrium angle versus field direction](figures/04_angulo_equilibrio_vs_direccion_campo.png)
 
+### 5. 
+📄 [View numerical results](results/results.txt)
+
+---
+
+## ▶️ Usage
+
+Run the model with:
+
+```bash
+python magnetic_anisotropy_model.py
+```
+
+The program:
+
+- prints the main numerical results in the terminal;
+- automatically saves the generated figures in the `figures` folder;
+- automatically creates a text file with the main numerical results in the `results` folder.
+
+---
+
+## 📄 Output
+
+The main numerical results are automatically saved in:
+
+[`results/results.txt´](results/results.txt)
+
+The file includes:
+
+- physical parameters;
+- base case;
+- field parallel to the easy axis;
+- field perpendicular to the easy axis;
+- comparison for different field magnitudes;
+- comparison for different field directions.
+
+---
+
+## 📁 Project structure
+
+```text
+magnetic-anisotropy-model/
+│
+├── magnetic_anisotropy_model.py
+├── README.md
+├── requirements.txt
+├── LICENSE
+├── .gitignore
+│
+├── figures/
+│ ├── 01_energias_caso_base.png
+│ ├── 02_campo_paralelo_perpendicular.png
+│ ├── 03_angulo_equilibrio_vs_campo.png
+│ └── 04_angulo_equilibrio_vs_direccion_campo.png
+│
+└── results/
+└── results.txt
+```
+
 ---
 
 ## ⚙️ Requirements
@@ -87,22 +146,6 @@ python -m pip install numpy matplotlib
 ```
 
 The program prints the main numerical results in the terminal and automatically saves the generated figures in the `figures` folder.
-
----
-
-## 📁 Project structure
-```text
-magnetic-anisotropy-model/
-│
-├── magnetic_anisotropy_model.py
-├── README.md
-│
-└── figures/
-├── 01_energias_caso_base.png
-├── 02_campo_paralelo_perpendicular.png
-├── 03_angulo_equilibrio_vs_campo.png
-└── 04_angulo_equilibrio_vs_direccion_campo.png
-```
 
 ---
 
