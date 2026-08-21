@@ -1,0 +1,38 @@
+=============================================
+MODELO DE ANISOTROPÍA MAGNÉTICA
+=============================================
+
+=============================================
+PARÁMETROS FÍSICOS
+K_u = 5.00e+04 J/m³
+M_s = 8.00e+05 A/m
+H   = 5.00e+04 A/m
+H_k = 9.95e+04 A/m
+
+CASO BASE
+φ_H   = 0.0°
+θ_eq  = 0.00°
+E_min = -50265.48 J/m³
+
+CAMPO PARALELO AL EJE FÁCIL
+φ_H   = 0.0°
+θ_eq  = 0.00°
+E_min = -50265.48 J/m³
+
+CAMPO PERPENDICULAR AL EJE FÁCIL
+φ_H   = 90.0°
+θ_eq  = 30.27°
+E_min = -12632.99 J/m³
+
+COMPARACIÓN SEGÚN LA INTENSIDAD DEL CAMPO
+H = 2.00e+04 A/m -> θ_eq  = 11.53°
+H = 5.00e+04 A/m -> θ_eq  = 30.27°
+H = 1.00e+05 A/m -> θ_eq  = 89.73°
+
+COMPARACIÓN SEGÚN LA DIRECCIÓN DEL CAMPO
+φ_H = 0° -> θ_eq  = 0.00°
+φ_H = 45° -> θ_eq  = 15.14°
+φ_H = 90° -> θ_eq  = 30.27°
+=============================================
+
+Resultados generados automáticamente por magnetic_anisotropy_model.py
